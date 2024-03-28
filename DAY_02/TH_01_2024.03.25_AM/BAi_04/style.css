@@ -1,0 +1,57 @@
+.menu-item1, .menu-item2 {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    vertical-align: top; 
+  }
+  .menu-item1{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/441/750/non_2x/tick-vector-icon.jpg');
+    background-size: 60px 60px;
+    padding-left: 80px;
+  }
+  .menu-item2{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/003/720/498/original/phone-icon-telephone-icon-symbol-for-app-and-messenger-vector.jpg');
+    background-size: 100px 100px;
+    padding-left: 100px;
+    border-right: 10px;
+  }
+  .menu-item1:hover{
+    color: #26ec0c;
+  }
+  .menu-item2:hover{
+    color: #3815d4;
+  }
+  .online-status{
+    width: 300px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    line-height: 1;
+  }
+  .status-icon-online, .status-icon-offline{
+    padding-left: 40px;
+    background-repeat: no-repeat;;
+    background-position: left center;
+  }
+  .status-icon-online{
+    background-image: url('smiling.png');
+    background-size: contain;
+    padding-left: 50px;
+    border-right: 10px;
+  }
+  .status-icon-offline{
+    background-image: url('sleep.png');
+    background-size: contain;
+    padding-left: 50px;
+    border-right: 10px;
+  }
+  .flex-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
